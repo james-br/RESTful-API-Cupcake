@@ -71,4 +71,4 @@ def delete_cupcake(id):
     db.session.delete(cupcake)
     db.session.commit()
 
-    return json(message="Cupcake was Deleted!")
+    return jsonify(message="Cupcake was Deleted!")

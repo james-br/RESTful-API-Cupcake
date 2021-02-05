@@ -4,7 +4,7 @@ const BASE_URL = "http://127.0.0.1:5000/api"
 
 function generateCupcake(cupcake){
     return `
-    <div class="col-sm-4 mx-auto my-3" data-cupcake-id=${cupcake.id}" >
+    <div class="col-sm-4 mx-auto my-3" data-cupcake-id="${cupcake.id}" >
         <img class="img-thumbnail rounded"  src="${cupcake.image}" alt="">
         <h4>
             ${cupcake.flavor} / ${cupcake.size} / Rating: ${cupcake.rating}
